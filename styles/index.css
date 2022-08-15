@@ -15,7 +15,7 @@ header {
     align-content: center;
 }
 
-.login-button {
+.nav-login-button {
     width: 182px;
     height: 51px;
     background: transparent;
@@ -26,4 +26,44 @@ header {
     flex: none;
     order: 1;
     flex-grow: 0;
+}
+
+.banner {
+    background-image: url(../resources/img/banner-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 352px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.banner-block {
+    color: #FFFFFF;
+    width: 80%;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.banner-title {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.8rem;
+    margin: 1rem 0;
+}
+
+.banner-text {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.6rem;
+}
+
+.banner-button {
+    width: 129px;
+    height: 51px;
+    background: #2A7AE4;
+    color: #FFFFFF;
 }
